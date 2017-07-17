@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title> Lina Montes Portfolio </title>
+	</head>
+	<body style="background-color:powderblue; font-family:monospace">
+		<h1 style="color:rebeccapurple; text-align:center;"> 
+		Who is Lina Montes?
+		<br>
+		</h1>
+
+			<p style="color:plum;text-align:center;"> <i> My name is Lina Montes. I have many interests that range from soccer, food, and dogs. I am also quite the netflix-enthusiast. I am a rising Senior at Yonkers Middle High School who hopes to attend college in NYC. I was born, grew up, and currently live in Yonkers, NY in Westchester County - apparently some of you refer to that as <q>upstate</q>. There is a lot to who I am. I am Colombian. I am a feminist. I am a dog owner. I am an athlete. I am a future coder. I am a foodie. I can not be me unless I am all of those things. In many ways, I see myself as an extremely versatile human.
+			<br>
+			</i>
+			</p>
+
+			<p style="text-align:center">
+			<img src="Lina.jpeg" style="width:300px;height:500px;">
+			<img src="lina3.jpeg" style="position:absolute;top:158px;right:661px; width:150px;height:150px;">
+			<img src="lina5.jpeg" style="position:absolute;top:333px;right:661px;width:150px;height:150px;">
+			<img src="lina2.jpeg" style="width:300px;height:500px;">
+			<img src="lina4.jpeg" style="width:150px;height:150px;">
+			<br>
+			<q style="text-align:center;color:slateblue;"> Conventional is not for me. I like things that are uniquely Lina. I like being different. </q>
+			</p>
+
+
+			<p style="color:blueviolet; text-align:center;"> <big> <u> ATHLETE </u> </big> </p>
+			<p style="color:plum; text-align:center;"> 
+			I have been playing soccer for about <b> 8 YEARS </b>. I began playing soccer on Yonkers DPY Liverpool as the only girl in our whole Westchester League. After playing on that team for about 4 years, I decided to search for better opportunities with Westchester Soccer Club and began to play in the Premier League. Now, I currently am playing for NY Surf Soccer, an affiliate of the world-renowned Surf Soccer Club in San Diego, California. PLaying soccer has allowed me to travel across the country, make new memories, and connect with many colleges. I plan to pursue college soccer in the future.
+			<br> 
+			<img src="Soccer.jpeg" style="width:200px;height:300px;">
+			<img src="Soccer.gif" style="width:200px;height:300px;">
+			<img src="Soccer3.jpeg" style="width:200px;height:300px;">
+			<img src="Soccer4.jpeg" style="width:200px;height:300px;">
+			</p>
+
+			<p style="color:blueviolet; text-align:center;"> <big> <u> DOG OWNER </u> </big> </p>
+			<p style="color:plum; text-align:center;">
+			I have a dog named Austin who is 3 years old. He is a mix between a german shepherd and a golden retriver. I adopted him for a rescue organization. When I adopted him, I realized he was really shy. He peed on me on the ride to his new home - our home. I was super excited nonetheless, and how could I be angry at my new, cute, fluffy best friend? Although he can't speak, I am aware of the hardships he encountered prior to being rescued. He does not like strangers at all and is extremely defensive of his "people" - which is terrible when I have friends come over. 
+			<br> 
+			<img src="Austin.JPEG"; style="width:200px;height:150px;">
+			<img src="Austin2.jpeg"; style="width:200px;height:150px;">
+			<img src="austin.gif"; style="width:200px;height:150px;">
+			<img src="austin3.jpeg"; style="width:200px;height:150px;">
+			</p>
+		
+			<p style="color:blueviolet; text-align:center;"> <big> <u>FOODIE </u> </big> </p>
+			<p style="color:plum; text-align:center;"> 
+			<b> 
+			FOOD. 
+			</b> 
+			I love food SO much. I am not a picky eater at all, and I believe that my open-mindedness allows me to try new foods whenever I go out. I think that food is a fascinating part of differeing cultures. Although food does not account for all that is a culture, learning where certain dishes come from and what they may mean is a good introduction towards eliminating ignorance. My love for food began as a young child in the streets of Colombia. I fell in love with empanadas, arepas, bandeja paisa's, bunuelos, and just about everything.
+			<br>
+			<img src="Arepa.jpeg"; style="width:200px;height:150px;"> <img src="Bunuelos.jpeg"; style="width:200px;height:150px;"> <img src="bandejapaisa.jpeg"; style="width:200px;height:150px;"> <img src="empanada.jpeg"; style="width:200px;height:150px;">
+			</p>
+	</body>
+</html>
+
