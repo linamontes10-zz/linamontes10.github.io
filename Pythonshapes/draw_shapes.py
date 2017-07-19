@@ -11,9 +11,9 @@ josephine.setposition(0,200)
 
 ### Write your code below:
 ### Preferences towards the pen and arrow:
-pen =str(input('What color do you desire your shape to be outlined?'))
+pen =str(input('What color do you desire your shape to be outlined with?'))
 josephine.pencolor(pen)
-turtle_color=str(input('What color do you desire shape to be?'))
+turtle_color=str(input('What color do you desire your shape to be?'))
 josephine.fillcolor(turtle_color)
 
 ### Variables used for drawing the shapes:
