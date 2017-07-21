@@ -1,9 +1,9 @@
 from PIL import Image
 
 # RGB values for recoloring.
-darkBlue = (0, 51, 76)
-red = (217, 26, 33)
-lightBlue = (112, 150, 158)
+navy = (0, 0, 128)
+plum = (221, 160, 221)
+aquamarine = (127, 255, 212)
 yellow = (252, 227, 166)
 
 # Import image
@@ -38,13 +38,13 @@ for x in image_list:
 	intensity=x[0]+x[1]+x[2]
 	
 	if intensity <182:
-		recolored.append(darkBlue)
+		recolored.append(navy)
 
-	elif intensity>182 and intensity<364:
-		recolored.append(red)
+	elif intensity>=182 and intensity<364:
+		recolored.append(plum)
 
-	elif intensity>364 and intensity<546:
-		recolored.append(lightBlue)
+	elif intensity>=364 and intensity<546:
+		recolored.append(aquamarine)
 
 	else:
 		recolored.append(yellow)
