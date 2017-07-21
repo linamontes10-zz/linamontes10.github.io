@@ -10,7 +10,7 @@ yellow = (252, 227, 166)
 # change IMAGENAME to the path on your computer to the image 
 # you're using'''
 
-my_image = Image.open("Austin.jpeg") 
+my_image = Image.open("lina2.jpeg") 
 
 # each pixel is represented in the form 
 # (red value, green value, blue value, transparency)
