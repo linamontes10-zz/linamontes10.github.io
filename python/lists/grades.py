@@ -28,14 +28,19 @@ for row in grade_book:
 # (For the extentions google for hints!)
 
 total_sum=0
+test=0
 
 for row in grade_book:
 	for x in row:
 		total_sum=x+total_sum
+		test=1+test
+
+
+
 print("The total sum is as follows:")
 print(total_sum)
 print()
 print("The average is as follows:")
-print(total_sum/15)
+print(total_sum/test)
 
 # Super extra extensions: calculate the student with highest/lowest average
