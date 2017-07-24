@@ -1,5 +1,17 @@
 <html>
 	<head>
+		<script>
+		function myFunction() {
+    		var txt;
+    		var person = prompt("Please enter your name:", "Harry Potter");
+    		if (person == null || person == "") {
+        		txt = "User cancelled the prompt.";
+    		} else {
+        		txt = "Hello " + person + "! How are you today?";
+    		}
+    		document.getElementById("demo").innerHTML = txt;
+		}
+		</script>
 		<title> Lina Montes Portfolio </title>
 	</head>
 	<body style="background-color:powderblue; font-family:monospace;border-style: dotted; border-color:green;margin-right: 257px;margin-left: 256px; margin-bottom: 20px; margin-top:20px">
@@ -14,19 +26,6 @@
 		M O N T E S</u>
 		<br>
 		</h1>
-
-		<script>
-		function myFunction() {
-    		var txt;
-    		var person = prompt("Please enter your name:", "Harry Potter");
-    		if (person == null || person == "") {
-        		txt = "User cancelled the prompt.";
-    		} else {
-        		txt = "Hello " + person + "! How are you today?";
-    		}
-    		document.getElementById("demo").innerHTML = txt;
-		}
-		</script>
 
 			<p style="color:plum;text-align:justify;"> <i> My name is Lina Montes. I have many interests that range from soccer, food, and dogs. I am also quite the netflix-enthusiast. I am a rising Senior at Yonkers Middle High School who hopes to attend college in NYC. I was born, grew up, and currently live in Yonkers, NY in Westchester County - apparently some of you refer to that as <q>upstate</q>. There is a lot to who I am. I am Colombian. I am a feminist. I am a dog owner. I am an athlete. I am a future coder. I am a foodie. I can not be me unless I am all of those things. In many ways, I see myself as an extremely versatile human.
 			<br>
