@@ -2,6 +2,35 @@
 	<head>
 
 		<style>
+			#container {
+				background-color:#0033CC;
+				width:80%;
+				height:80%;
+			}
+
+			.el1 {
+				height:100%;
+				width:37.5%;
+				float:left;
+			}
+
+			.el2 {
+				height:100%;
+				width:24%;
+				float:left;
+			}
+
+			.pic12 {
+				height:100%;
+				width:100%;
+				float:left;
+			}
+
+			.el3 {
+				height:33.3333%;
+				width:100%;
+			}
+
 			#name {
 				color:#fefbd8;
 				text-align:center;
@@ -10,12 +39,12 @@
 
 			.paragraph {
 				color:#fefbd8;
-				text-align:justify;
+				text-align:center;
 				font-size: 15px;
 			}
 
 			.button {
-				background-color:#4040a1;
+				background-color:#9900CC;
 				border-radius: 10px;
 				font-family:monospace;
 				font-size:15px;
@@ -23,12 +52,12 @@
 			}
 
 			#body {
-				background-color:#36486b;
+				background-color:#000033;
 				font-family:monospace;
 				border-style: dotted;
-				border-color:#fefbd8;
-				margin-right: 200px;
-				margin-left: 200px;
+				border-color:#3300CC;
+				margin-right: 120px;
+				margin-left: 120px;
 				margin-bottom: 20px;
 				margin-top:20px;
 			}
@@ -40,20 +69,25 @@
 
 			.title {
 				color:#fefbd8;
+				font-size:20px;
 				text-align:center;
 			}
 
 			#quote {
-				text-align:center;
-				color:#618685;
+				color:#fefbd8;
+				font-size:20px;
+				font-family: monospace;
+
 			}
 
 		</style>
+		<script type="text/javascript" src="some.js"></script>
 
 		<title> Lina Montes Portfolio </title>
 	</head>
 	<body id = "body">
-		<h1 id="name"> 
+		<div style="background-color:#0000CC"
+		<h1 id="name">
 		<u>
 		L I N A</u>
 		<BR>
@@ -66,22 +100,44 @@
 		<button class = "button">Biography</button>
 		<button class = "button">Portfolio</button>
 		<button class = "button">Resume</button>
-		<button class = "button">Articles</button>
+		<button class = "button">Contact Me</button>
 		</h1>
-			<div style="background-color:#618685> 
-			<p id = "description"> <i> My name is Lina Montes. I have many interests that range from soccer, food, and dogs. I am also quite the netflix-enthusiast. I am a rising Senior at Yonkers Middle High School who hopes to attend college in NYC. I was born, grew up, and currently live in Yonkers, NY in Westchester County - apparently some of you refer to that as <q>upstate</q>. There is a lot to who I am. I am Colombian. I am a feminist. I am a dog owner. I am an athlete. I am a future coder. I am a foodie. I can not be me unless I am all of those things. In many ways, I see myself as an extremely versatile human.
+		</div>
+
+			<div id = "description">
+			<p style="background-color:#0033CC"> <i> My name is Lina Montes. I have many interests that range from soccer, food, and dogs. I am also quite the netflix-enthusiast. I am a rising Senior at Yonkers Middle High School who hopes to attend college in NYC. I was born, grew up, and currently live in Yonkers, NY in Westchester County - apparently some of you refer to that as <q>upstate</q>. There is a lot to who I am. I am Colombian. I am a feminist. I am a dog owner. I am an athlete. I am a future coder. I am a foodie. I can not be me unless I am all of those things. In many ways, I see myself as an extremely versatile human.
 			<br>
 			</i>
 			</p>
 			</div>
+			<div style="background-color:#0033CC">
+				<center><div id="container">
+					<div class="el1">
+						<img class="pic12" src="Lina.jpeg">
+					</div>
+					<div class="el1">
+						<img class="pic12" src="lina2.jpeg">
+					</div>
+					<div class="el2">
+						<div class="el3">
+							<img class="pic12" src="lina3.jpeg">
+						</div>
+						<div class="el3">
+							<img class="pic12" src="lina4.jpeg">
+						</div>
+						<div class="el3">
+							<img class="pic12" src="lina6.jpeg">
+						</div>
 
-			<p style="text-align:center">
-			<img src="linacollage.jpg" style="width:50%;height:80%;">
-			<br>
+					</div>
+				</div></center>
+			</div>
+
+			<div style="text-align:center;">
 			<q id = "quote"> Conventional is not for me. I like things that are uniquely Lina. I like being different. </q>
-			</p>
+			</div>
 
-
+			<div style="background-color:#0066CC">
 			<h3 class = "title"> <big> <u> ATHLETE </u> </big> </h3>
 			<p class = "paragraph"> 
 			I have been playing soccer for about <b> 8 YEARS </b>. I began playing soccer on Yonkers DPY Liverpool as the only girl in our whole Westchester League. After playing on that team for about 4 years, I decided to search for better opportunities with Westchester Soccer Club and began to play in the Premier League. Now, I currently am playing for NY Surf Soccer, an affiliate of the world-renowned Surf Soccer Club in San Diego, California. PLaying soccer has allowed me to travel across the country, make new memories, and connect with many colleges. I plan to pursue college soccer in the future.
@@ -92,6 +148,10 @@
 			<img src="soccer4.jpeg" style="width:200px;height:300px;">
 			</p>
 
+			</div>
+
+			<div style="background-color:#0099CC"
+
 			<h3 class = "title"> <big> <u> DOG OWNER </u> </big> </h3>
 			<p class = "paragraph">
 			I have a dog named Austin who is 3 years old. He is a mix between a german shepherd and a golden retriver. I adopted him for a rescue organization. When I adopted him, I realized he was really shy. He peed on me on the ride to his new home - our home. I was super excited nonetheless, and how could I be angry at my new, cute, fluffy best friend? Although he can't speak, I am aware of the hardships he encountered prior to being rescued. He does not like strangers at all and is extremely defensive of his "people" - which is terrible when I have friends come over. 
@@ -101,7 +161,11 @@
 			<img src="austin.gif"; style="width:200px;height:150px;">
 			<img src="austin3.jpeg"; style="width:200px;height:150px;">
 			</p>
-		
+			
+			</div>
+
+			<div style="background-color:#00CCCC"
+
 			<h3 class = "title"> <big> <u>FOODIE </u> </big> </h3>
 			<p class = "paragraph">
 			<b>FOOD.</b> 
@@ -110,10 +174,15 @@
 			<img src="arepa.jpeg"; style="width:200px;height:150px;"> <img src="bunuelos.jpeg"; style="width:200px;height:150px;"> <img src="BandejaPaisa.jpeg"; style="width:200px;height:150px;"> <img src="empanada.jpeg"; style="width:200px;height:150px;">
 			</p>
 
+			</div>
+
+			<div style="background-color:#00FFCC"
 			<h3 class = "title "> <big> <u> GIRL </u> </big> </h3>
 			<p class = "paragraph">  
 			As a girl, I know that my life experiences are extremely varied in comparison to my brothers. I am treated differenty by my teachers, parents, and coaches. Although my younger brother Joshua is 3 years younger than I am, the idea of him dating is celebrated, whereas it is prohibited with me. As a soccer player, I have often been told that because I am a girl, I can not be a good soccer player. Whenever I enter a park to play, I hear boys say <q> Take it easy, <b> she's a girl </b>. </q> Oh, are they wrong. As a daugther, there is extreme pressure to be <q><b>perfect </b></q>. 
 			<br>
+			</p>
+			</div>
 
 	</body>
 </html>
