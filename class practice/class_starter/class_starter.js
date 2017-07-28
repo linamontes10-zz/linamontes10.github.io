@@ -5,14 +5,14 @@ class Person {
 		this.address=address;
 	}
 	getFullName(){
-		return this.first_name + this.last_name
+		return this.first_name + " " +this.last_name;
 	}
 	getAddress(){
-		return this.address
+		return this.address;
 	}
 }
 
-var Tom_Cruise = new Person("Tom", " Cruise", "1111 Calle Vista Dr, Beverly Hills, CA 90210")
+var Tom_Cruise = new Person("Tom", "Cruise", "1111 Calle Vista Dr, Beverly Hills, CA 90210")
 
 var name = Tom_Cruise.getFullName();
 document.getElementById("myName").innerHTML = name;
