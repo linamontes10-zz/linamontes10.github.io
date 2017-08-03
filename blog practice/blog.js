@@ -13,10 +13,6 @@ function addEntryToBlog() {
  	var blogText = document.getElementById("blogEntryText").value;
  	var blogEntry = new BlogEntry(name,blogText);
 
-   
-
-
-
   //Add the new entry, name and date to the blog
 	createBlogEntryElement(blogEntry);
 	createFooterElement(blogEntry);
