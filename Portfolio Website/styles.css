@@ -1,0 +1,143 @@
+			#container {;
+				width:80%;
+				height:80%;
+			}
+
+			#home {
+				color:#FBFFFE;
+				background-color:#507DBC;
+				text-align:center;
+				font-size:120px;
+				border-style: double;
+				border-color: white;
+			}
+
+			#bodyhome {
+				background-image: url("blogbg.gif");
+				font-family:"Trebuchet MS";
+				margin-right: 120px;
+				margin-left: 120px;
+				margin-bottom: 20px;
+				margin-top:45px;
+			}
+
+			#bodycontact {
+				background-color:#BBD1EA;
+				font-family:"Trebuchet MS";
+				margin-right: 120px;
+				margin-left: 120px;
+				margin-bottom: 60px;
+				margin-top:60px;
+				border-style: double;
+				border-color: white;
+			}
+
+			.el1 {
+				height:100%;
+				width:37.5%;
+				float:left;
+			}
+
+			.el2 {
+				height:100%;
+				width:24%;
+				float:left;
+			}
+
+			.pic12 {
+				height:100%;
+				width:100%;
+				float:left;
+			}
+
+			.el3 {
+				height:33.3333%;
+				width:100%;
+			}
+
+			#name {
+				color:#FBFFFE;
+				text-align:center;
+				font-size:30px;
+			}
+
+			.paragraph {
+				color:#FBFFFE;
+				text-align:center;
+				font-size: 15px;
+			}
+
+			.paragraphcontact {
+				color:#FBFFFE;
+				text-align:center;
+				font-size: 25px;
+				background-color:#507DBC;
+			}
+
+			.button {
+				background-color:#A1C6EA;
+				border-radius: 10px;
+				font-family:"Trebuchet MS";
+				font-size:15px;
+				color:#FBFFFE;
+			}
+			
+			.buttonhome {
+				background-color:#A1C6EA;
+				border-radius: 30px;
+				font-family:"Trebuchet MS";
+				font-size:35px;
+				color:#FBFFFE;
+			}
+
+			#body {
+				background-color:#BBD1EA;
+				font-family:"Trebuchet MS";
+				border-style: double;
+				border-color: white;
+				margin-right: 120px;
+				margin-left: 120px;
+				margin-bottom: 20px;
+				margin-top:20px;
+			}
+
+			#description {
+				color:#FBFFFE;
+				background-color:#507DBC;
+				text-align:justify;
+			}
+
+			.title {
+				color:#FBFFFE;
+				font-size:20px;
+				text-align:center;
+			}
+
+			#quote {
+				color:#FBFFFE;
+				font-size:20px;
+				font-family: "Trebuchet MS";
+			}
+
+			.subtitle {
+				color:#FBFFFE;
+				text-align: center;
+				font-family: "Trebuchet MS";
+				font-size: 25px;
+				background-color:#507DBC;
+			}
+
+			a:link {
+				color:#FBFFFE;
+				text-deocration: none;
+			}
+
+			a:visited {
+				color:#B4EEB4;
+				text-docration: none;
+			}
+
+			a:hover {
+				text-decoration: none;
+				color:#BBD1EA;
+			}
