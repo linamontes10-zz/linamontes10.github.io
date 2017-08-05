@@ -8,7 +8,7 @@ body {
 .header {
   font-size: 60px;
   font-family: monospace;
-  color:#000080;
+  color:#87CEFA;
   background-image: url("headerbg.gif");
   height: 200px;
 }
@@ -18,12 +18,13 @@ body {
 }
 
 #addEntryBtn {
-  width: 80px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   background-color: #000080;
   color: white;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 200;
+  font-family: monospace;
 }
 
 #blogEntryContainer {
@@ -34,42 +35,47 @@ body {
 #blogEntryText {
   height: 100px;
   width: 600px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
 #blogEntryName {
   width: 600px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
 #blogDetails {
   width: 800px;
   padding-left: 30px;
   padding-right: 30px;
+  font-family: monospace;
 }
 
 .blogEntry {
   margin-bottom: 5px;
   font-size: 20px;
-  color: maroon;
+  color: #191970;
+  font-family: monospace;
 }
 
 .blogDate {
   margin-bottom: 20px;
-  font-size: 12px;
-  color: maroon;
+  font-size: 15px;
+  color: #191970;
+  font-family: monospace;
 }
 
 #blogBody {
-  background-image: url("blogbg.gif");
+  background-image: url("simba.gif");
   height: 100%;
   border-top
 }
 
 #blogBodyInner {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
-  background-color: #6495ED;
+  background-color: #87CEFA;
   height: 100%;
 }
