@@ -1,0 +1,32 @@
+<html>
+  <head>
+  </head>
+  <body onload="displayNames()" style="background-color:#9999FF;font-family:'Trebuchet MS'; text-align: center">
+    <div>
+      <h4>Display names</h4>
+      <span>Names: </span>
+      <span id="names" ></span>
+      <br/><br/>
+
+      <input id="nameInput" style="width:100%; border:1px solid white;background-color:#000066; color: white" placeholder="Enter a name here"></input>
+      <button id="getNameBtn" style="background-color:white;font-family:'Trebuchet MS'" onclick="getFriends()">Get Friends</button>
+      <br/><br/>
+
+      <div id="friends"></div>
+
+      <br/><hr/><br/>
+
+      <h4>Add friends</h4>
+      <input id="nameOfGirl" style="width:100%; border:1px solid white;background-color:#000099; color: white" placeholder="Enter the name of a girl from the list" />
+      <br/>
+      <br/>
+      <input id="nameOfFriend" style="width:100%; border:1px solid white;background-color:#0000CC; color: white" placeholder="Enter the name of a friend" />
+      <br/>
+      <button id="addFriend" style="background-color:white;font-family:'Trebuchet MS'" onclick="addFriend()">Add Friend</button>
+       <br/>
+       <br/>
+
+    </div>
+    <script type="text/javascript" src="social_network.js"></script>
+  </body>
+</html>
