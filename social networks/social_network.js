@@ -22,17 +22,7 @@ function displayNames() {
 
 function getFriends() {
 	var girl = document.getElementById("nameInput").value;
-	var friendList = UserFriends[girlFromList];
-	var herFriends = ""
-
-	// Loop through friends of girl given, add friend to herFriends
-	for (var i=0; i< friendList.length; i++){
-		herFriends
-	}
-
-
-
-	document.getElementById("friends").innerHTML = "These are " + girl + "'s" + " " + "friends" + ":" + herFriends;
+	document.getElementById("friends").innerHTML = "These are " + girl + "'s" + " " + "friends" + ":" + UserFriends[girl];
 }
 
 /*EXTENSION*/
