@@ -1,14 +1,39 @@
-var array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
+var stringArray = [];
 
-function insertionSort(array) {
-  for(var i = 0; i < array.length; i++) {
-    var temp = array[i];
-    var j = i - 1;
-    while (j >= 0 && array[j] > temp) {
-      array[j + 1] = array[j];
-      j--;
-    }
-    array[j + 1] = temp;
+function makeArray() {
+  var arrayInput = document.getElementById("ArrayInput").value;
+  var split = arrayInput.split(" ");
+  for(var i =0; i < split.length; i++){
+      stringArray.push(parseInt(split[i]));
   }
-  return array;
+
+  displayUnsortedArray()
+  insertionSort()
+}
+
+function displayUnsortedArray() {
+  document.getElementById("unsortedArray").innerHTML = stringArray.toString();
+}
+
+function insertionSort() {
+  for(var i = 1; i < stringArray.length; i++) {
+    var element = stringArray [i];
+    var j=i;
+    while (j >= 0 && stringArray[j-1] > element) {
+      var temp = stringArray[j-1];
+      stringArray[j-1] = stringArray[j];
+      stringArray[j]=temp;
+      j=j-1;
+    }
+    console.log (stringArray);
+  }
+  document.getElementById("sortedArray").innerHTML = stringArray;
+}
+
+function clearArray() {
+   stringArray = [];
+  document.getElementById("sortedArray").innerHTML = "";
+  document.getElementById("unsortedArray").innerHTML = "";
+
+
 }

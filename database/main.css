@@ -1,0 +1,67 @@
+body {
+}
+
+.centerChildren {
+  text-align: center;
+}
+
+.header {
+  font-size: 60px;
+  font-family: "Trebuchet MS";
+  color:#87CEFA;
+  background-image: url("headerbg.gif");
+  height: 150px;
+}
+
+#headerText {
+  padding-top: 40px;
+}
+
+#addTaskBtn {
+  width: 100px;
+  height: 30px;
+  background-color: #000080;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "Trebuchet MS";
+}
+
+#taskEntryContainer {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#taskEntryText {
+  height: 50px;
+  width: 600px;
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+}
+
+#taskDetails {
+  width: 800px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Trebuchet MS";
+}
+
+.taskEntry {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #191970;
+  font-family: "Trebuchet MS";
+}
+
+#taskBody {
+  background-image: url("simba.gif");
+  height: 100%;
+  border-top
+}
+
+#taskBodyInner {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #87CEFA;
+  height: 100%;
+}
