@@ -27,14 +27,24 @@ body {
   font-family: "Trebuchet MS";
 }
 
+#deleteTaskBtn {
+  width: 100px;
+  height: 30px;
+  background-color: #000080;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "Trebuchet MS";
+}
+
 #taskEntryContainer {
   padding-top: 30px;
   padding-bottom: 40px;
 }
 
 #taskEntryText {
-  height: 50px;
-  width: 600px;
+  height: 40px;
+  width: 42%;
   font-size: 15px;
   font-family: "Trebuchet MS";
 }
@@ -56,11 +66,10 @@ body {
 #taskBody {
   background-image: url("simba.gif");
   height: 100%;
-  border-top
 }
 
 #taskBodyInner {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   background-color: #87CEFA;
   height: 100%;

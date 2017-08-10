@@ -3,13 +3,14 @@
     <link href="main.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="header centerChildren"><div id="headerText">My Tasks</div></div>
+    <div class="header centerChildren"><div id="headerText">To Do List</div></div>
     <div id="taskBody">
       <div id="taskBodyInner">
         <div id="taskEntryContainer" class="centerChildren">
           <input id="taskEntryText" placeholder="Add your task here"></input>
           <br/>
           <button id="addTaskBtn" onclick="addTaskToTheToDoList()">Add Task</button>
+          <button id="deleteTaskBtn" onclick="deleteTask()">Delete Task</button>
         </div>
         <div id="taskDetails">
         </div>
