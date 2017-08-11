@@ -8,9 +8,9 @@ body {
 .header {
   font-size: 60px;
   font-family: "Trebuchet MS";
-  color:#87CEFA;
-  background-image: url("headerbg.gif");
-  height: 150px;
+  color:#000080;
+  background-color:#9999FF;
+  height: 99px;
 }
 
 #headerText {
@@ -27,15 +27,6 @@ body {
   font-family: "Trebuchet MS";
 }
 
-#deleteTaskBtn {
-  width: 100px;
-  height: 30px;
-  background-color: #000080;
-  color: white;
-  font-size: 15px;
-  font-weight: 200;
-  font-family: "Trebuchet MS";
-}
 
 #taskEntryContainer {
   padding-top: 30px;
@@ -47,6 +38,7 @@ body {
   width: 42%;
   font-size: 15px;
   font-family: "Trebuchet MS";
+  border:2px solid #000080;
 }
 
 #taskDetails {
@@ -54,6 +46,8 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   font-family: "Trebuchet MS";
+  color: #000080;
+  font-size: 30px;
 }
 
 .taskEntry {
@@ -64,13 +58,14 @@ body {
 }
 
 #taskBody {
-  background-image: url("simba.gif");
+  background-color:#9999FF;
   height: 100%;
 }
 
 #taskBodyInner {
   width: 60%;
   margin: 0 auto;
-  background-color: #87CEFA;
+  background-color: #7272ff;
   height: 100%;
+  border: 3px dotted #000080;
 }
